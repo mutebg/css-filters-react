@@ -1,0 +1,12 @@
+html, 
+body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	min-height: 100%;
+	font: 18px/1.2 'Roboto', sans-serif;
+	color: $textColor;
+	background-color: #fff;
+}

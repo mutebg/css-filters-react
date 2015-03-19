@@ -1,0 +1,29 @@
+input[type="range"] {
+  -webkit-appearance: none !important;
+  width: 100%;
+  height: 6px;
+  background-color: $activeColor;
+  border: 1px solid darken($activeColor, 10%);
+  border-radius: 10px;
+  margin: auto;
+  transition: all 0.3s ease;
+}
+input[type="range"]:hover {
+  background-color: $activeColor;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  width: 20px;
+  height: 20px;
+  background-color: darken($activeColor, 10%);
+  border-radius: 30px;
+  box-shadow: 0px 0px 3px #3c6d59;
+  transition: all 0.5s ease;
+}
+input[type="range"]::-webkit-slider-thumb:hover {
+  background-color: darken($activeColor, 10%);
+}
+input[type="range"]::-webkit-slider-thumb:active {
+  box-shadow: 0px 0px 1px #3c6d59;
+}
